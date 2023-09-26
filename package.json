@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "@-ft/watch-target",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "util watchTarget",
   "types": "./index.d.ts",
   "main": "./index.js",

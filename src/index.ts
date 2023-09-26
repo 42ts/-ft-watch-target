@@ -26,6 +26,7 @@ export function watchTarget<T>(initialValue: T): WatchTarget<T> {
   }
 
   function set(newValue: T) {
+    if (value === newValue) return;
     value = newValue;
     watchers.forEach((watcher) => watcher(value));
   }
